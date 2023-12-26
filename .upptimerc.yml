@@ -7,6 +7,14 @@ sites:
     url: https://dl-api-dev.app-dev.my.id/api/v1/ping
   - name: Daily Langauge Dev Dashboard
     url: http://dl-dev.app-dev.my.id/
+  - name: Daily Langauge Prod API
+    url: https://api.dailylanguage.my.id/api/v1/ping
+  - name: Daily Language Prod Dashboard
+    url: https://dailylanguage.my.id
+  - name: DL Prod Server
+    check: "tcp-ping"
+    url: "103.127.132.76"
+    port: 53
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -23,13 +31,13 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   workflowSchedule:
-    graphs: "0 0 * * *"
-    responseTime: "0 23 * * *"
-    staticSite: "0 1 * * *"
-    summary: "0 0 * * *"
-    updateTemplate: "0 0 * * *"
-    updates: "0 3 * * *"
-    uptime: "*/10 * * * *"
+    graphs: "*/15 * * * *"
+    responseTime: "*/15 * * * *"
+    staticSite: "*/15 * * * *"
+    summary: "*/15 * * * *"
+    updateTemplate: "*/15 * * * *"
+    updates: "*/15 * * * *"
+    uptime: "*/15 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
