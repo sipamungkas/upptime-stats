@@ -1,7 +1,7 @@
 url: https://dl-api-dev.app-dev.my.id/api/v1/ping
-status: up
-code: 200
-responseTime: 2640
-lastUpdated: 2023-12-28T05:45:03.611Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2023-12-28T06:36:43.152Z
 startTime: 2023-12-25T15:12:00.508Z
 generator: Upptime <https://github.com/upptime/upptime>
