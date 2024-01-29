@@ -1,7 +1,7 @@
 url: http://dl-dev.app-dev.my.id/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-01-29T12:40:39.062Z
+status: up
+code: 200
+responseTime: 8085
+lastUpdated: 2024-01-29T13:31:31.445Z
 startTime: 2023-12-25T15:12:01.905Z
 generator: Upptime <https://github.com/upptime/upptime>
